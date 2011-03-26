@@ -9,5 +9,5 @@ fi
 
 set -e
 
-./configure --prefix="$SPKG_LOCAL"
+./configure --prefix="$SPKG_LOCAL" --enable-fortran
 make install
