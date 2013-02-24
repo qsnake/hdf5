@@ -617,7 +617,7 @@ hsize_t h5diff(const char *fname1,
     char         filenames[2][MAX_FILENAME];
     hsize_t      nfound = 0;
     int i;
-    //int i1, i2;
+    /*int i1, i2;*/
     int l_ret;
     const char * obj1fullname = NULL;
     const char * obj2fullname = NULL;
